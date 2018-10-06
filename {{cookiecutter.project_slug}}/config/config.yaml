@@ -1,0 +1,2 @@
+root: "{{cookiecutter.root_dir}}"
+email: "{{cookiecutter.email}}"

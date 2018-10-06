@@ -3,6 +3,7 @@
 {{cookiecutter.project_description}}
 
 
-> {{cookiecutter.name}}
-> {{cookiecutter.affiliation}}
-> {{cookiecutter.date}}
+### Contact
+{{cookiecutter.name}}
+{{cookiecutter.affiliation}}
+{{cookiecutter.date}}

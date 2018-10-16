@@ -1,5 +1,6 @@
 __default__:
   time: "01:00:00"
   mem: "8G"
+  cpus: 1
   name: "JOBNAME.{rule}.{wildcards}"
   output: "logs/{rule}.{wildcards}.out"

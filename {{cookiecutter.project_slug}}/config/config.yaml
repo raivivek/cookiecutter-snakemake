@@ -1,2 +1,2 @@
-root: "{{cookiecutter.root_dir}}"
+root: "{{cookiecutter.project_root_dir}}"
 email: "{{cookiecutter.email}}"

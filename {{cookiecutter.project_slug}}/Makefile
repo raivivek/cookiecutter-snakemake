@@ -19,5 +19,5 @@ run:
 		--snakefile src/Snakefile \
 		--configfile config/config.yaml \
 		--cluster-config config/cluster.yaml \
-		--cluster "sbatch --output {cluster.output} --time {cluster.time} --mem {cluster.mem}" \
+		--cluster "sbatch --output {cluster.output} --time {cluster.time} --mem {cluster.mem} --cpus-per-task {cluster.cpus}" \
 		&> logs/snakemake.log&

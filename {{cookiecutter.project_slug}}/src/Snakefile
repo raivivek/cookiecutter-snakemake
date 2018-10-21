@@ -17,7 +17,11 @@ work = partial(os.path.join, ROOT, 'work')
 FINAL = [] 
 
 # extend output
+# for example,
 #
+# FINAL.extend(
+#    ['tmp.py', 'hello.py']
+# )
 
 #
 # main rule, specify list of files to be generated

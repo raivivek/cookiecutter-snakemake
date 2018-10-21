@@ -4,7 +4,7 @@
   "affiliation": "Parker Lab",
   "project": "Snakemake",
   "project_slug": "{{cookiecutter.project.lower().replace(' ', '-')}}",
-  "project_description": "Example Snakemake workflow",
+  "project_description": "Snakemake workflow",
   "project_root_dir": ".",
   "date": "{% now 'local' %}",
   "_extensions": ["jinja2_time.TimeExtension"]
